@@ -32,8 +32,9 @@ public class BugRunner
     {
         Bug buggy = new Bug();
         ActorWorld world = new ActorWorld();
-        world.add(buggy);
-        world.add(new BoxBug(5));
+//        world.add(buggy);
+//        world.add(new BoxBug(5));
+        world.add(new SpiralBug(2));
         world.add(new Rock());
         world.show();
     }
