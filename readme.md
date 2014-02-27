@@ -10,15 +10,17 @@
 9. NO. rock does not move. no other behavior.
 10. No. actors are either replaced, removed, or do not move, but they cannot occupy the same space at the same time.
 
-0   North
-45  North-East
-90  East
-135 South-East
-180 South
-225 South-West
-270 West
-315 North-West
-360 North
+| Angle  | Direction  |
+| ------ |:----------:|
+| 0      | North      |
+| 45     | North-East |
+| 90     | East       |
+| 135    | South-East |
+| 180    | South      |
+| 225    | South-West |
+| 270    | West       |
+| 315    | North-West |
+| 360    | North      |
 
 2. You can move it to any location on the grid. (ie. not outside the grid or on a rock). The bug maintains the original direction it was in before using moveTo. The program will error if you try to move it outside the grid.
 
