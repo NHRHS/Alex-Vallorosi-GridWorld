@@ -49,8 +49,18 @@ public class ZBug extends Bug
           System.out.println("steps < sl");
             move();
             steps++;
+            zLength++;
+            System.out.println(zLength);
+            if (zLength == 8){
+              System.out.println("stops");
+              return;
+            }
         }
         else if (steps == sideLength && canMove()){
+          if (zLength == 8){
+            System.out.println("stops");
+            return;
+          }
           turn();
           turn();
           turn();
@@ -58,6 +68,10 @@ public class ZBug extends Bug
         }
         else if (steps > sideLength && canMove())
         {
+          if (zLength == 8){
+            System.out.println("stops");
+            return;
+          }
           if (steps == 2*sideLength+1)
             {
               System.out.println("steps = 2sl");
@@ -71,7 +85,7 @@ public class ZBug extends Bug
               System.out.println("else");
               move();
               steps++;
-              zLength++;
+              
             }
         }
 //        } else {
