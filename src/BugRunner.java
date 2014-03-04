@@ -22,7 +22,7 @@ public class BugRunner
         ActorWorld world = new ActorWorld();
 //        world.add(buggy);
 //        world.add(new BoxBug(5));
-        world.add(new CircleBug(4));
+        world.add(new DancingBug(4));
         world.add(new Rock());
         world.show();
     }
