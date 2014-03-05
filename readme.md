@@ -6,7 +6,7 @@
 5. when it is at the edge of a grid, it hits the wall and turns.
 6. when there is a rock immediately in front of it, the bug turns.
 7. No. flowers do not move.
-8. a flower “dies”
+8. a flower ï¿½diesï¿½
 9. NO. rock does not move. no other behavior.
 10. No. actors are either replaced, removed, or do not move, but they cannot occupy the same space at the same time.
 
@@ -28,4 +28,12 @@
 
 4. The bug disappears. It is no longer there when the rock is removed.
 
-###PART TWO: TO BE COMPLETED
+###PART TWO:
+
+1. The variable SideLength sets the length of the side (how far the bug should travel on each side of the shape)
+2. The variable steps counts how many steps the bug has made and resets at a certain point
+3. turn() is called twice because a turn is 45 deg and we want to rotate the bug 90 deg
+3. The move() method can be called because it is inherited from another class
+4. The size of a Box Bug's square will be as large as the parameter passed into it
+5. The path can only change if the code is modified. Otherwise, it will always be a box.
+6. The value of steps will be 0 when steps == sideLength
