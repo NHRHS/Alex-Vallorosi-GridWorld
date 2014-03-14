@@ -28,12 +28,21 @@
 
 4. The bug disappears. It is no longer there when the rock is removed.
 
-###PART TWO:
+##PART TWO:
 
 1. The variable SideLength sets the length of the side (how far the bug should travel on each side of the shape)
 2. The variable steps counts how many steps the bug has made and resets at a certain point
 3. turn() is called twice because a turn is 45 deg and we want to rotate the bug 90 deg
-3. The move() method can be called because it is inherited from another class
-4. The size of a Box Bug's square will be as large as the parameter passed into it
-5. The path can only change if the code is modified. Otherwise, it will always be a box.
-6. The value of steps will be 0 when steps == sideLength
+4. The move() method can be called because it is inherited from another class
+5. The size of a Box Bug's square will be as large as the parameter passed into it
+6. The path can only change if the code is modified. Otherwise, it will always be a box.
+7. The value of steps will be 0 when steps == sideLength
+
+
+##PART THREE
+section a.
+1. loc1.getRow() 
+2. false
+3. 4,4
+4. 135, SE
+5. parameter in method says which direction to find. Method returns the closest one.
